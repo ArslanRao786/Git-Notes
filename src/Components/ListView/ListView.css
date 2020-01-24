@@ -1,0 +1,78 @@
+.listBigContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.listContainer {
+  width: 70%;
+}
+
+.list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 5% 20% 20% 20% 20% 15%;
+  align-items: center;
+}
+
+.actionIcons {
+  margin-left: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.header {
+  display: grid;
+  background: #def5ec;
+  grid-template-columns: 5% 80% 15%;
+  align-items: center;
+}
+
+.list img {
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 5% 80% 15%;
+  align-items: center;
+}
+
+button {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+.list h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 550;
+}
+
+.grid p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 12px;
+}
+
+svg {
+  color: #9ae7c1;
+}
+
+.list:hover {
+  cursor: pointer;
+  color: #5acba1;
+}

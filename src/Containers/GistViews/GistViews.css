@@ -1,0 +1,19 @@
+.buttonContainer {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.paginationContainer {
+  padding: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.active,
+.icons:hover {
+  cursor: pointer;
+  color: green;
+}

@@ -1,0 +1,49 @@
+.descriptionBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.descriptionTextField {
+  width: 70%;
+}
+
+.bigContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.contentContainer {
+  width: 60%;
+}
+
+.border {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  border-radius: 5px;
+  background: #fafbfc;
+}
+
+.fileNameTextField {
+  width: 40%;
+}
+
+.contentTextField {
+  width: 100%;
+}
+
+/* button {
+  background: #edf0f4;
+  width: 10%;
+  border-radius: 50%;
+} */
+
+.button {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+.nameContainer {
+  width: 70%;
+}
+
+.largeContainer h3 {
+  display: flex;
+  color: blue;
+}

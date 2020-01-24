@@ -1,0 +1,35 @@
+.descriptionContainer {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.descriptionContainer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+.descriptionContainer h5 {
+  margin: 0;
+  color: blue;
+}
+
+.descriptionContainer h5:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.descriptionContainer p {
+  margin: 0;
+  font-size: 9px;
+}
+
+.infoContainer {
+  display: flex;
+}
+
+.actionIcons {
+  display: flex;
+}

@@ -1,0 +1,17 @@
+.containerGrid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.root {
+  width: 80%;
+}
+
+.footer {
+  margin-block-start: 20px;
+}
+
+.gridHover:hover {
+  cursor: pointer;
+}

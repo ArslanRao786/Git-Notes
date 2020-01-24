@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.profileContainer {
+  width: 30%;
+  margin-top: 80px;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileContainer img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.profileContainer button {
+  color: blue;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 60%;
+  height: 35px;
+  background: aliceblue;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.gistsContainer {
+  width: 50%;
+  margin-top: 80px;
+  margin-left: 100px;
+}

@@ -1,0 +1,55 @@
+.NavBar {
+  widows: 100%;
+  background: #5acba1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.NavBar .formatting img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+button {
+  height: 40px;
+}
+
+.formatting {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.namePosition {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.NavBar .namePosition h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.onHover:hover {
+  cursor: pointer;
+}
+
+.loginButton {
+  color: #5acba1;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+}
